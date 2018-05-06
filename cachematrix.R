@@ -45,6 +45,6 @@ cacheSolve <- function(x, ...) {
   inv <- solve(data, ...)
   #message(paste(c("Got the inverse:  ",inv)))
   x$setInverse(inv)
-  message("Inverse updated in the object.")
+  #message("Inverse updated in the object.")
   inv
 }
